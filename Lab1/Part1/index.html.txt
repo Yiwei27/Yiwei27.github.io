@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+	<!--
+	Name: Yiwei Li
+	File: index.html
+	Date: 15 January 2025
+	Description: Lab 1 part 1 marking up a letter provided by MDN
+	-->
 		<meta charset="utf-8">
 		<style>
 		  body {
