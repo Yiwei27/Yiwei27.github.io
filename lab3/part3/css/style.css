@@ -50,7 +50,7 @@ header, footer {
          url('font/FONTSPRINGDEMO-LovatoLightRegular.woff') format('woff'),
          url('font/FONTSPRINGDEMO-LovatoLightRegular.ttf') format('truetype'),
          url('font/FONTSPRINGDEMO-LovatoLightRegular.svg#FONTSPRINGDEMO-LovatoLightRegular') format('svg');
-    font-weight: normal;
+    font-weight: 300;
     font-style: normal;
 }
 
@@ -66,7 +66,7 @@ header, footer {
     font-style: normal;
 }
 
-body {
+html {
   font-family: FONTSPRING DEMO - Lovato, serif;
   font-size: 10px;
 }
@@ -96,14 +96,15 @@ p, li {
   word-spacing: 3px;
 }
 
-a {
-  outline: none;
-}
 
 a[href*="http"] {
   padding-right: 19px;
   background: url(external-link-52.png) no-repeat 100% 0;
   background-size: 16px 16px;
+}
+
+a {
+  outline: none;
 }
 
 a:link, a:visited {
