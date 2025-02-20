@@ -109,6 +109,8 @@ a[href*="http"]{
   background-position: center right;
   line-height: 16px;
   height: 16px;
+  border: none;
+  
 }
 
 a:link, a:visited {
