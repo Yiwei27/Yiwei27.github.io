@@ -106,10 +106,9 @@ a[href*="http"]{
   background-image: url('image/external-link-52.png');
   background-size: 16px 16px;
   background-repeat: no-repeat;
-  background-position: right center;
-  width: 20px;
-  height: 20px;
-  border: 1px solid red; /*debugging*/
+  background-position: center right;
+  line-height: 16px;
+  height: 16px;
 }
 
 a:link, a:visited {
