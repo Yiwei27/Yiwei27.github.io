@@ -67,12 +67,12 @@ header, footer {
 }
 
 html {
-  font-family: FONTSPRING DEMO - Lovato, serif;
+  font-family: "FONTSPRING DEMO - Lovato", serif;
   font-size: 10px;
 }
 
 h1, h2 {
-  font-family: Josefin Slab, sans-serif;
+  font-family: "Josefin Slab", sans-serif;
   letter-spacing: 2px;
 }
 
@@ -100,17 +100,11 @@ a {
   outline: none;
 }
 
-a[href*="http"] {
+a[href*="http"]::after{
+  content: "";
+  display: inline-block;
   padding-right: 19px;
-  background: url(external-link-52.png) no-repeat 100% 0;
-  background-size: 16px 16px;
-}a {
-  outline: none;
-}
-
-a[href*="http"] {
-  padding-right: 19px;
-  background: url(external-link-52.png) no-repeat 100% 0;
+  background-image: url("external-link-52.png") no-repeat 100% 0;
   background-size: 16px 16px;
 }
 
