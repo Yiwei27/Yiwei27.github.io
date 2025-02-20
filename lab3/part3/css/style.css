@@ -96,15 +96,22 @@ p, li {
   word-spacing: 3px;
 }
 
+a {
+  outline: none;
+}
 
 a[href*="http"] {
   padding-right: 19px;
   background: url(external-link-52.png) no-repeat 100% 0;
   background-size: 16px 16px;
+}a {
+  outline: none;
 }
 
-a {
-  outline: none;
+a[href*="http"] {
+  padding-right: 19px;
+  background: url(external-link-52.png) no-repeat 100% 0;
+  background-size: 16px 16px;
 }
 
 a:link, a:visited {
