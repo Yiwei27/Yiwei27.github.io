@@ -42,4 +42,26 @@ header, footer {
   border-bottom: 5px solid #a66;
 }
 
-/* WRITE YOUR CODE BELOW HERE */
+@font-face {
+    font-family: 'FONTSPRING DEMO - Lovato';
+    src: url('font/FONTSPRINGDEMO-LovatoLightRegular.eot');
+    src: url('font/FONTSPRINGDEMO-LovatoLightRegular.eot?#iefix') format('embedded-opentype'),
+         url('font/FONTSPRINGDEMO-LovatoLightRegular.woff2') format('woff2'),
+         url('font/FONTSPRINGDEMO-LovatoLightRegular.woff') format('woff'),
+         url('font/FONTSPRINGDEMO-LovatoLightRegular.ttf') format('truetype'),
+         url('font/FONTSPRINGDEMO-LovatoLightRegular.svg#FONTSPRINGDEMO-LovatoLightRegular') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Josefin Slab';
+    src: url('font/JosefinSlab-Bold.eot');
+    src: url('font/JosefinSlab-Bold.eot?#iefix') format('embedded-opentype'),
+         url('font/JosefinSlab-Bold.woff2') format('woff2'),
+         url('font/JosefinSlab-Bold.woff') format('woff'),
+         url('font/Josefinslab-Bold.ttf') format('truetype'),
+         url('font/JosefinSlab-Bold.svg#JosefinSlab-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
