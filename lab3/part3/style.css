@@ -100,16 +100,14 @@ a {
   outline: none;
 }
 
-a[href*="http"]{
+a[href*="http"]::after{
   display: inline-block;
-  padding-right: 20px;
+  content: "";
   background-image: url('image/external-link-52.png');
-  background-size: 16px 16px;
-  background-repeat: no-repeat;
-  background-position: center right;
-  line-height: 16px;
-  height: 16px;
-  border: none;
+  background-size: 100%;
+  width: 0.8em;
+  height: 0.8em;
+  margin-left: 0.25em;
   
 }
 
