@@ -1,4 +1,3 @@
-// Thanks to Renan Martineli for this version of the demo
 
 // setup canvas
 
@@ -160,7 +159,6 @@ class EvilCircle extends Shape {
 
 }
 
-// define array to store balls and populate it
 
 const balls = [];
 
