@@ -8,6 +8,7 @@
 	Lab5 Accessibility troubleshooting
 -->
     <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
 
     <title>Accessibility assessment</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
@@ -20,11 +21,11 @@
   </head>
 
   <body>
-    <div class="header">
-      <font size="7">Welcome to our wildlife website</font>
-    </div>
+    <header>
+      <h1>Welcome to our wildlife website</h1>
+    </header>
 
-    <div class="nav">
+    <nav>
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Our team</a></li>
@@ -33,10 +34,10 @@
       </ul>
 
       <form class="search">
-        <input type="search" name="q" placeholder="Search query">
+        <input type="search" name="q" placeholder="Search query" aria-label="Search through site content">
         <input type="submit" value="Go!">
       </form>
-    </div>
+    </nav>
 
     <main>
       <article>
